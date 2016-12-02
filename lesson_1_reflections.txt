@@ -1,0 +1,18 @@
+How did viewing a diff two versions of a file help you see the bug that was introduced?
+
+The diff command on *nix distributions and FC command on Windows, will help to quickly glance at the differences that are introduced in the new version of any file and also to get the line numbers at which the differences are made. 
+This will help us to quickly fix any typos and bugs in large files. Also these commands will let us know if there any lines that are included/excluded int the new file which helps us to fix any indeliberate errors.
+
+
+
+How could having easy access to the entire history of a file make you a more efficent programmer in the long term?
+
+This can help us to actually get back to the working code if we have made a lot of changes and the new version introduces lot of bugs. This can also help various memmers to work on a given module without having to lose the original code.
+
+What do you think are the pros and cons of manually choosing when to create a commit,like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manually choosing to commit will give you versions that are more logical and in most of the cases compiled code which makes more sense when compared to auto saving.
+This may result in user errors if it is saved too often or not saved for a long time.
+
+
+
