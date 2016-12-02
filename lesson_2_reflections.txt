@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize a new repository, a new .git folder is created in the directory init is called. Git uses this to store the metadata required to keep track of files.
+
+How is the staging area different from the working directory and the repository?What value do you think it offers.
+
+Staging area is an intermediate location used by Git to add the files that are to be committed during the next commit. It helps to divide changes in the working directory into several commits, each of which consists of a group of changes that represent a logical change to the relevant files
