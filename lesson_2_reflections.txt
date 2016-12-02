@@ -5,3 +5,7 @@ When we initialize a new repository, a new .git folder is created in the directo
 How is the staging area different from the working directory and the repository?What value do you think it offers.
 
 Staging area is an intermediate location used by Git to add the files that are to be committed during the next commit. It helps to divide changes in the working directory into several commits, each of which consists of a group of changes that represent a logical change to the relevant files
+
+How can you use the stagong area to nake sure you have one commit per logical change?
+First add files that are related to the first logical change you want to commit, and after making it sure you have staged all the files, make a commit. 
+Next you stage other files that are related to the second logical change you want to commit, and so on
