@@ -25,3 +25,12 @@ focussing on and at which branch to merge your work
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 All the commits in the second branch are merged into the second branch, and the resulting merge commit becomes the new head of your current branch. The diagram
 shown by git log --graph clearly shows the merged commit has two parents, which corresponds to the prior heads of each merged branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Pros:
+*Saves your time, especially when each non conflicting merge is non trivial.
+*Makes you concentrate on the changes which actually contain conflicts.
+
+Cons:
+* Cant think of any definite ones. May be can make it easier to overlook the potentially dangerous situation where two persons are working at the same time.
