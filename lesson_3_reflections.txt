@@ -4,3 +4,8 @@ It comes handy when you work on different computers and to keep all the workstat
 
 Why might you always want to pull changes manually rather than having Git automatically stay up-to-date with your remote respository?
 When multiple people are collabrating on a project you might not want changes made by other people in your local repository.
+
+What is the benefit of having a copy of last known state of the remote stored locally?
+when you collabrate with others on a project and all the changes made in the remote can be  pulled without loss of any changes made in the local using git fetch and then 
+comparing the changes and then merging them.
+
